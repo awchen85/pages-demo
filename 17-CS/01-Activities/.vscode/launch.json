@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/03-Recursion/Unsolved/index.js",
+      "runtimeExecutable": "/Users/joshuabohde/.nvm/versions/node/v16.14.0/bin/node"
+    },
+    {
+      "type": "node",
+      "name": "Run Current File",
+      "request": "launch",
+      "program": "${workspaceFolder}/04-Binary-Search/Solved/index.js",
+      "runtimeExecutable": "/Users/joshuabohde/.nvm/versions/node/v16.14.0/bin/node"
+    }
+  ]
+}
